@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+
+}
+.main{
+    width:500px;
+    height:560px;
+    border: 2px solid black;
+    
+    
+}
+.row{
+    display: flex;
+}
+.row>div{
+    width: 70px;
+    height: 70px;
+    border: 2px solid black;
+}
+.row1>div:nth-child(even),.row3>div:nth-child(even),.row5>div:nth-child(even),.row7>div:nth-child(even){
+    background-color:black;
+}
+.row2>div:nth-child(odd),.row4>div:nth-child(odd),.row6>div:nth-child(odd),.row8>div:nth-child(odd){
+    background-color:black;
+}
+.blue{
+    font-size: 30px;
+    color: blue;
+}
+.red{
+     font-size: 30px;
+    color:red;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
